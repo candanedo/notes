@@ -26,26 +26,58 @@ and open the template in the editor.
         </form>
         <br>
         <form>
-            <label for="name">TODO´s name</label><br>
-            <input type="text" name="name" value="" /><br>
+            <label for="name">TODO´s name</label>
+            <br>
+            <input type="text" name="name" value="" />
+            <br>
             <label for="descripcion">Describe the activity or todo</label><br>
             <textarea id="description" name="descripcion" cols="70" rows="5"></textarea>
         </form>
-        <label for="os">Operating System</label><br>
+        <label for="os">Operating System</label>
+        <br>
         <select id="os" name="os">
             <option value="" selected="selected">- select -</option>
             <option value="windows">Windows</option>
             <option value="mac">Mac</option>
             <option value="linux">Linux</option>
             <option value="other">Another</option>
-        </select><br><br>
+        </select>
+        <br>
+        <br>
         <label for="so2">Operating System</label><br>
-        <select id="os2" name="so2" size="5">
+        <select id="os2" name="os2" size="5">
             <option value="" selected="selected">- select -</option>
             <option value="windows">Windows</option>
             <option value="mac">Mac</option>
             <option value="linux">Linux</option>
             <option value="other">Another</option>
+        </select>
+        <br>
+        <label for="so3">Operating System</label><br>
+        <select id="os3" name="os3" size="5" multiple="multiple">
+            <option value="" selected="selected">- select -</option>
+            <option value="windows">Windows</option>
+            <option value="mac">Mac</option>
+            <option value="linux">Linux</option>
+            <option value="other">Another</option>
+        </select>
+        <br>
+        <label for="so2">Operating System</label><br>
+        <select id="os4" name="os4" size="5" multiple="multiple">
+            <optgroup label="Operating Systems">
+                <option value="" selected="selected">- select -</option>
+                <option value="windows">Windows</option>
+                <option value="mac">Mac</option>
+                <option value="linux">Linux</option>
+                <option value="other">Another</option>
+            </optgroup>
+            <optgroup label="Browsers">
+                <option value="" selected="selected">- select -</option>
+                <option value="firefox">Firefox</option>
+                <option value="safari">Safari</option>
+                <option value="opera">Opera</option>
+                <option value="other">Another</option>
+            </optgroup>
         </select>
     </body>
 </html>
